@@ -1,0 +1,30 @@
+.bg-light-gradient {
+  background: linear-gradient(to bottom, #f7f7f7, #e5e5e5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 20px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.text-primary {
+  color: #007bff !important;
+  font-weight: bold;
+}

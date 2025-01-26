@@ -1,0 +1,63 @@
+/* Header Navbar Styles */
+.header-navbar {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-navbar.hide {
+  transform: translateY(-100%);
+}
+
+.header-navbar.show {
+  transform: translateY(0);
+}
+
+.header-navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.header-navbar .navbar-nav .nav-link {
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.header-navbar .navbar-nav .nav-link:hover {
+  color: #0056b3;
+}
+
+.header-navbar .btn-primary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.header-navbar .btn-outline-primary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.header-navbar .btn-outline-primary:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+@media (max-width: 991px) {
+  .header-navbar .navbar-nav {
+    margin-top: 15px;
+  }
+
+  .header-navbar .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+
+  .header-navbar .btn-primary,
+  .header-navbar .btn-outline-primary {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
